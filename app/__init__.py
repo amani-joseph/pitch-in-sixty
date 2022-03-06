@@ -5,8 +5,8 @@ from flask_login import LoginManager
 from flask_bootstrap import Bootstrap
 from flask_uploads import UploadSet, configure_uploads, IMAGES
 
-db = SQLAlchemy()
 bootstrap = Bootstrap()
+db = SQLAlchemy()
 
 login_manager = LoginManager()
 login_manager.session_protection = 'strong'
