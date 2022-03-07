@@ -196,7 +196,7 @@ def view_comments(id):
 @main.route('/test/<int:id>')
 def test(id):
     '''
-    this is route for basic testing
+    route for basic testing
     '''
     pitch = Pitch.query.filter_by(id=1).first()
     return render_template('test.html', pitch=pitch)
