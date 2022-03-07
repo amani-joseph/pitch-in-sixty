@@ -10,7 +10,7 @@ class PitchForm(FlaskForm):
     submit = SubmitField('Submit')
 
 class UpdateProfile(FlaskForm):
-    bio = TextAreaField('Say something about yourself...', validators = [Required()])
+    bio = TextAreaField('Hit us with that pitch...', validators = [Required()])
     submit = SubmitField('Submit')
 
 class CommentsForm(FlaskForm):
