@@ -5,7 +5,6 @@ from ..models import User,Pitch,Comment,Upvote,Downvote
 from flask_login import login_required, current_user
 from .. import db, photos
 
-# import markdown2
 
 
 @main.route('/')
