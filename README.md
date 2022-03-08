@@ -8,10 +8,11 @@ This  is a flask application that allows users to post a short pitch and also al
 
 ## Live Link
 [View Site - not yet deployed for now]()
-<!-- 
+
 ## Screenshot
 
-<img src="" width="900px" height="440px"> -->
+<img src="https://github.com/amani-joseph/pitch-in-sixty/blob/master/app/static/images/Screenshot1.png?raw=true" >
+<img src="https://github.com/amani-joseph/pitch-in-sixty/blob/master/app/static/images/Screenshot2.png?raw=true" >
 
 ## User Story
 
