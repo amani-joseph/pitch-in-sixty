@@ -29,7 +29,7 @@ class ProdConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://kgxeopernurmpx:aa31071d97c85e5c57358ba27c61f3747494fcf1fd0737dbb3e851073e1210b5@ec2-44-194-167-63.compute-1.amazonaws.com:5432/dbhkq9mcmefecl'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://ttzxdsbxvnawli:cd7af553cacbaaa04a107594aa3c9f199096c8ea7d6f44873a0c3f03c4ad96b4@ec2-23-23-164-251.compute-1.amazonaws.com:5432/dfnue77pan1ovu'
     
     # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://j03:j03@localhost/pitch'
     
