@@ -26,18 +26,19 @@ class ProdConfig(Config):
     """
     Production configuration child class
     """
-    SQLALCHEMY_DATABASE_URI = 'postgresql://mnrfvjqygduyif:3c05f374af891f34c1b4211a3892c892193d291cd4395af8104256b6e155a05c@ec2-52-207-74-100.compute-1.amazonaws.com:5432/ddvbmgiita6jqp'   
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://mnrfvjqygduyif:3c05f374af891f34c1b4211a3892c892193d291cd4395af8104256b6e155a05c@ec2-52-207-74-100.compute-1.amazonaws.com:5432/ddvbmgiita6jqp'   
 
 class TestConfig(Config):
-#    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://j03:j03@localhost/pitch'
-   SQLALCHEMY_DATABASE_URI = 'postgresql://cwybneiomrugfl:cd378ab9f71cd27cb49e8b0a23c949c5cbacf57b84e7af7c7108fe33bfbf841c@ec2-52-70-205-234.compute-1.amazonaws.com:5432/d3fpocs4p9ko5v'
+   SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://j03:j03@localhost/pitch'
+#    SQLALCHEMY_DATABASE_URI = 'postgresql://cwybneiomrugfl:cd378ab9f71cd27cb49e8b0a23c949c5cbacf57b84e7af7c7108fe33bfbf841c@ec2-52-70-205-234.compute-1.amazonaws.com:5432/d3fpocs4p9ko5v'
     
 
 class DevConfig(Config):
     """pitch-in-sixty
     Development config child class
     """
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://j03:j03@localhost/pitch'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://mnrfvjqygduyif:3c05f374af891f34c1b4211a3892c892193d291cd4395af8104256b6e155a05c@ec2-52-207-74-100.compute-1.amazonaws.com:5432/ddvbmgiita6jqp'
+    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://j03:j03@localhost/pitch'
 
     DEBUG = True
 
