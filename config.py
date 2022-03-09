@@ -37,8 +37,8 @@ class DevConfig(Config):
     """pitch-in-sixty
     Development config child class
     """
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://mnrfvjqygduyif:3c05f374af891f34c1b4211a3892c892193d291cd4395af8104256b6e155a05c@ec2-52-207-74-100.compute-1.amazonaws.com:5432/ddvbmgiita6jqp'
-    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://j03:j03@localhost/pitch'
+    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://mnrfvjqygduyif:3c05f374af891f34c1b4211a3892c892193d291cd4395af8104256b6e155a05c@ec2-52-207-74-100.compute-1.amazonaws.com:5432/ddvbmgiita6jqp'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://j03:j03@localhost/pitch'
 
     DEBUG = True
 
