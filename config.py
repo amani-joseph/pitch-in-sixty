@@ -30,7 +30,7 @@ class ProdConfig(Config):
 
 class TestConfig(Config):
 #    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://j03:j03@localhost/pitch'
-   SQLALCHEMY_DATABASE_URI = 'postgres://dqttppniumcfpe:10ef45779fd7d49ce8da89c0be6cfbd143788cff77ee04f7da6e5ede8c1507ea@ec2-34-231-183-74.compute-1.amazonaws.com:5432/d21ovpg5d76s9p'
+   SQLALCHEMY_DATABASE_URI = 'postgres://cwybneiomrugfl:cd378ab9f71cd27cb49e8b0a23c949c5cbacf57b84e7af7c7108fe33bfbf841c@ec2-52-70-205-234.compute-1.amazonaws.com:5432/d3fpocs4p9ko5v'
     
 
 class DevConfig(Config):
