@@ -21,7 +21,7 @@ background-image: linear-gradient(315deg, #537895 0%, #09203f 74%); !important">
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" style= 'margin-right:30px' data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              <i class="fas fa-user"></i>&nbsp;<strong>{{current_user.username}}</strong> </a>
+              <i class="fas fa-user fw-bolder"></i>&nbsp;<strong>{{current_user.username}}</strong> </a>
             <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
               <a class="dropdown-item" href="{{url_for('main.profile',name=current_user.username)}}"><i class="far fa-user"></i>&nbsp; My account</a>
               <a class="dropdown-item" href="{{url_for('auth.logout')}}"><i class="fas fa-sign-out-alt"></i>&nbsp; Log out</a>
