@@ -7,7 +7,7 @@
 This  is a flask application that allows users to post a short pitch and also allows other users who have signed up to comment and vote for a pitch. It also allows a user to sign-up to be able to access the functionalities of the application
 
 ## Live Link
-[View Site - not yet deployed for now]()
+[https://gpitch-in-sixty.herokuapp.com/]
 
 ## Screenshot
 
