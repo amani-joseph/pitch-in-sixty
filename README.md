@@ -73,7 +73,7 @@ Open the application on your browser `127.0.0.1:5000`.
 
 
 ## Known Bugs
-* TAlot of bugs... still under development
+* No known bugs
 
 ## Contact Information 
 
