@@ -11,11 +11,10 @@ This  is a flask application that allows users to post a short pitch and also al
 
 ## Screenshot
 
-<img src="https://github.com/amani-joseph/pitch-in-sixty/blob/master/app/static/images/Screenshot1.png?raw=true" >
-<img src="https://github.com/amani-joseph/pitch-in-sixty/blob/master/app/static/images/Screenshot1.png?raw=true" >
-<img src="https://github.com/amani-joseph/pitch-in-sixty/blob/master/app/static/images/Screenshot1.png?raw=true" >
-<img src="https://github.com/amani-joseph/pitch-in-sixty/blob/master/app/static/images/Screenshot1.png?raw=true" >
-<img src="https://github.com/amani-joseph/pitch-in-sixty/blob/master/app/static/images/Screenshot2.png?raw=true" >
+<img src="https://github.com/amani-joseph/pitch-in-sixty/blob/master/app/static/images/pitch-in-sixty.herokuapp.com_signup.png?raw=true" >
+<img src="https://github.com/amani-joseph/pitch-in-sixty/blob/master/app/static/images/pitch-in-sixty.herokuapp.com_login.png?raw=true" >
+<img src="https://github.com/amani-joseph/pitch-in-sixty/blob/master/app/static/images/pitch-in-sixty.herokuapp.com_%20(1).png?raw=true" >
+
 
 ## User Story
 
